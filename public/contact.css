@@ -91,6 +91,7 @@ input {
   font-size: x-large;
   width: 30%;
   justify-content: center;
+  align-items: center;
 }
 .container {
   padding-top: 70px;

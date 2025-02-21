@@ -156,7 +156,10 @@ body {
   
   .fa-trash-alt {
     color: #de6b5c;
+    font-size: x-large;
   }
   .liked {
-    color: red !important;
+    color: red ;
+    
+
   }
