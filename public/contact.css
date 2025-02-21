@@ -1,0 +1,187 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+}
+
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color:#D76C82;
+  color: white;
+  width: 100%;
+  border: none;
+}
+
+.h1 {
+  color: white;
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  font-weight: 300px;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+
+label {
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  font-style: inherit;
+  font-size: x-large;
+  justify-content: center;
+}
+input[type="text"],
+input[type="password"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 25px;
+}
+button {
+  background-color: #c07383;
+  color: white;
+  border: 2px solid #ab4459;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  align-self: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  align-items: start;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  width: 100%;
+}
+.inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: start;
+  align-items: center;
+}
+.inputs label {
+  font-size: x-large;
+  width: 30%;
+  justify-content: center;
+}
+.container {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#D76C82;;
+  border: none;
+}
+/* Fixed position */
+.fixed {
+  position: fixed;
+  z-index: 1;
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  gap: 300px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  font-size: x-large;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  color:white;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  border: none;
+  color: white;
+  padding: 20px;
+}
+
+
+
+footer input[type="email"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+}
+footer button {
+  width: fit-content;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #663232;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  justify-content: center;
+}
+button:hover {
+  background-color: #7d1c1c;
+}
